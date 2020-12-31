@@ -76,10 +76,14 @@ export const languageData = [
     },
 ] as LanguageData[];
 
-export const isValidLanguage = (
+export function isValidLanguage(
+    language: any,
+    by: 'code',
+): language is SupportedLanguage;
+export function isValidLanguage(
     language: any,
     by: 'code' | 'image' | 'display',
-): boolean => {
+): boolean {
     return languageData
         .map(e => e.names[by])
         .includes(language);
