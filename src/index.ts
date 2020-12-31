@@ -17,7 +17,7 @@ export const languageData = [
             code: 'python',
             image: 'python',
         },
-        extension: '.py',
+        extension: 'py',
         entrypoint: 'main.py',
     },
     {
@@ -26,7 +26,7 @@ export const languageData = [
             code: 'nodejs',
             image: 'node',
         },
-        extension: '.js',
+        extension: 'js',
         entrypoint: 'index.js',
     },
     {
@@ -35,7 +35,7 @@ export const languageData = [
             code: 'bash',
             image: 'bash',
         },
-        extension: '.sh',
+        extension: 'sh',
         entrypoint: 'main.sh',
     },
     {
@@ -44,7 +44,7 @@ export const languageData = [
             code: 'java',
             image: 'java',
         },
-        extension: '.java',
+        extension: 'java',
         entrypoint: 'Main.java',
     },
     {
@@ -53,7 +53,7 @@ export const languageData = [
             code: 'prolog',
             image: 'prolog',
         },
-        extension: '.pl',
+        extension: 'pl',
         entrypoint: 'main.pl',
     },
     {
@@ -62,7 +62,7 @@ export const languageData = [
             code: 'go',
             image: 'go',
         },
-        extension: '.go',
+        extension: 'go',
         entrypoint: 'main.go',
     },
     {
@@ -71,7 +71,7 @@ export const languageData = [
             code: 'cpp',
             image: 'cpp',
         },
-        extension: '.cpp',
+        extension: 'cpp',
         entrypoint: 'main.cpp',
     },
 ] as LanguageData[];
