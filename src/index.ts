@@ -1,4 +1,4 @@
-export type SupportedLanguage = 'python' | 'nodejs' | 'bash' | 'java' | 'prolog' | 'go' | 'cpp';
+export type SupportedLanguage = 'python' | 'nodejs' | 'bash' | 'java' | 'prolog' | 'go' | 'cpp' | 'php';
 
 export interface LanguageData {
     names: {
@@ -73,6 +73,15 @@ export const languageData = [
         },
         extension: 'cpp',
         entrypoint: 'main.cpp',
+    },
+    {
+        names: {
+            display: 'PHP',
+            code: 'php',
+            image: 'php',
+        },
+        extension: 'php',
+        entrypoint: 'index.php',
     },
 ] as LanguageData[];
 
