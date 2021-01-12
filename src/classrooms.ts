@@ -1,4 +1,4 @@
-import firebase from 'firebase';
+import type firebase from 'firebase';
 
 export interface Classroom {
     created: firebase.firestore.Timestamp;

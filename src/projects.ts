@@ -1,5 +1,5 @@
 import { SupportedLanguage } from './languages';
-import firebase from 'firebase';
+import type firebase from 'firebase';
 
 export enum ProjectType {
     Template,
